@@ -1,0 +1,74 @@
+body {
+  background-color: darkblue;
+}
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+button:hover {
+  color: red
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
+}
+.stat-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.progress-container { /*a background or frame for the health bar*/
+  width: 40%;
+  background-color: white; /* Background color for the bar */
+  border-radius: 2px;
+  margin-left: 10px; /* Space between stat text and progress bar */
+  border-color: black;
+}
+
+.progress-bar {/*the actual health level of the character*/
+  height: 10px;
+  background-color:white;
+  border-radius: 2px;
+}
+
+#healthBar {
+  width: 50%;
+  background-color: green;
+}
+
+#monsterImage {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
